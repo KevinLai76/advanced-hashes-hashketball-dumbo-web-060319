@@ -172,7 +172,7 @@ def player_stats(player_name)
   end 
 end
 
-def big_shoe_rebound
+def biggest_shoe
   big_shoe_guy = nil
   shoe_size = nil
   game_hash.each do |locations, team_data|
@@ -183,7 +183,6 @@ def big_shoe_rebound
       end 
     end 
   end
-  binding.pry
 end
 
 # def big_shoe_rebound
