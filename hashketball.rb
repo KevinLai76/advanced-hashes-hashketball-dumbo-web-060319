@@ -192,8 +192,8 @@ end
 
 def big_shoe_rebound
   game_hash.each do |locations, team_data|
-    team_data[:players].each do |player, stats|
-      
+    team_data[:players][biggest_shoe][:rebounds]
+    binding.pry
       end
     end
   end
