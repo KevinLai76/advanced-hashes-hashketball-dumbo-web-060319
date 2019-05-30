@@ -180,14 +180,11 @@ def big_shoe_rebound
       if shoe_size == nil && big_shoe_guy == nil
         big_shoe_guy = player
         shoe_size = stats[:shoe]
-        binding.pry
-        
-      
       end 
     end 
   end
 end
-
+binding.pry
 # def big_shoe_rebound
 #   game_hash.each do |locations, team_data|
 #     team_data[:players].each do |player, stats|
