@@ -180,6 +180,7 @@ def biggest_shoe
       if shoe_size == nil && big_shoe_guy == nil
         big_shoe_guy = player
         shoe_size = stats[:shoe]
+        binding.pry
         
       
       end 
