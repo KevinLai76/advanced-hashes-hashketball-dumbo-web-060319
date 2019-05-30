@@ -177,7 +177,8 @@ def biggest_shoe
   shoe_size = nil
   game_hash.each do |locations, team_data|
     team_data[:players].each do |player, stats|
-      if shoe_size == nil && 
+      if shoe_size == nil && big_shoe_guy == nil
+        
         
       
       end 
