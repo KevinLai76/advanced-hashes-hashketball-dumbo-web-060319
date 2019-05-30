@@ -172,6 +172,7 @@ def player_stats(player_name)
   end 
 end
 
+# helper_method
 def biggest_shoe
   big_shoe_guy = nil
   shoe_size = nil
