@@ -180,9 +180,14 @@ def biggest_shoe
       if shoe_size == nil && big_shoe_guy == nil
         big_shoe_guy = player
         shoe_size = stats[:shoe]
+      elsif stats[:shoe] > shoe_size
+        big_shoe_guy = player
+        shoe_size = stats[:shoe]
       end 
     end 
   end
+  
+  return big_shoe_guy
 end
 
 # def big_shoe_rebound
